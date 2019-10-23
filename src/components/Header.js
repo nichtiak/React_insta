@@ -9,7 +9,16 @@ export default class Header extends Component {
                     <a href="#" className="logo">
                         <img src={logo} alt="logo"></img>
                     </a>
-                    
+                    <nav className="links">
+                        <ul>
+                            <li>
+                                <a href="#" className="menu_links">Лента</a>
+                            </li>
+                            <li>
+                                <a href="#" className="menu_links">Профиль</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
         )
